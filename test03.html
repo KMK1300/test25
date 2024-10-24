@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이미지 갤러리</title>
+    <style>
+        a:link {
+    color: rgb(131, 51, 147);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(152, 130, 157);
+    font-weight: bold;
+}
+a:hover {
+    color: rgb(128, 6, 152);
+    font-weight: bold;
+    text-decoration: underline;
+}
+a:active {
+    color: #00ffff;
+}
+
+div.container {
+        width: 100%;
+        border: 1px solid rgb(255, 255, 255);
+    }
+
+    footer {
+        padding: 1em;
+        color: f8f8f8;
+        clear: right;
+        text-align: center;
+    }
+
+    nav {
+        float: right;
+        max-width: 160px;
+        margin: 10;
+        padding: 1em;
+    }
+
+    nav ul {
+           list-style-type: none;
+}
+
+    nav ul a {
+        text-decoration: none;
+    }
+        body {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 0;
+            padding: 20px;
+        }
+        .image-container {
+            width: 60%;
+            margin-bottom: 20px;
+        }
+        img {
+            width: 100%;
+            height: auto; 
+    </style>
+</head>
+
+<body   bgcolor="#f8f8f8">
+    <h1> VOUGE </h1>
+
+        <nav>
+            <ul>
+                <li><a href="file:///C:/ex/test01.html">THE VOGUE</a></li>
+                <li><a href="file:///C:/ex/test02.html">세계 각국의 보그</a></li>
+                <li><a href="file:///C:/ex/test03.html">역대 보그 표지</a></li>
+                <li><a href="file:///C:/ex/test04.html">보그가 제안하는 패션 트렌드 5가지</a></li>
+                <li><a href="file:///C:/ex/test05.html">보그가 소개하는 세레브리티 패셔니스타 5명</a></li>
+            </ul>
+        </nav>    
+    
+        <div class="container">
+
+    <div class="image-container"><img src="i1.jpg" alt="이미지 1"></div>
+    <div class="image-container"><img src="i2.jpg" alt="이미지 2"></div>
+    <div class="image-container"><img src="i3.jpg" alt="이미지 3"></div>
+    <div class="image-container"><img src="i4.jpg" alt="이미지 4"></div>
+    
+    <div class="image-container"><img src="i5.jpg" alt="이미지 5"></div>
+    <div class="image-container"><img src="i6.jpg" alt="이미지 6"></div>
+    <div class="image-container"><img src="i7.jpg" alt="이미지 7"></div>
+    <div class="image-container"><img src="i8.jpg" alt="이미지 8"></div>
+    
+    <div class="image-container"><img src="i9.jpg" alt="이미지 9"></div>
+    <div class="image-container"><img src="i10.jpg" alt="이미지 10"></div>
+    <div class="image-container"><img src="i11.jpg" alt="이미지 11"></div>
+    <div class="image-container"><img src="i12.jpg" alt="이미지 12"></div>
+    
+</body>
+</html>
